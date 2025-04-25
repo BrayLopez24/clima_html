@@ -62,7 +62,35 @@ body{
     padding: 1rem;
 }
 
-@media (min-width: 768px){
+.weather-card {
+    background-color: var(--white);
+    color: black;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.current{
+    font-size: 6rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.temperatures{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.temperatures p{
+    font-weight: 900;
+}
+
+.temperatures span{
+    font-weight: 400;
+}
+
+@media(min-width: 768px){
     .container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
